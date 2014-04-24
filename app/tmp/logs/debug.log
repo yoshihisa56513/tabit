@@ -1,0 +1,82 @@
+2014-04-17 13:30:49 Notice: Notice (8): Use of undefined constant h1 - assumed 'h1' in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Videos/view.ctp, line 5]
+Trace:
+include - APP/View/Videos/view.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 935
+View::_render() - CORE/Cake/View/View.php, line 897
+View::render() - CORE/Cake/View/View.php, line 466
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-04-17 13:35:38 Notice: Notice (8): Use of undefined constant h1 - assumed 'h1' in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Videos/view.ctp, line 5]
+Trace:
+include - APP/View/Videos/view.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 935
+View::_render() - CORE/Cake/View/View.php, line 897
+View::render() - CORE/Cake/View/View.php, line 466
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-04-17 23:02:05 Notice: Notice (8): Use of undefined constant h1 - assumed 'h1' in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Videos/view.ctp, line 5]
+Trace:
+include - APP/View/Videos/view.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 935
+View::_render() - CORE/Cake/View/View.php, line 897
+View::render() - CORE/Cake/View/View.php, line 466
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-04-19 11:27:54 Notice: Notice (8): Use of undefined constant h1 - assumed 'h1' in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Videos/view.ctp, line 5]
+Trace:
+include - APP/View/Videos/view.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 935
+View::_render() - CORE/Cake/View/View.php, line 897
+View::render() - CORE/Cake/View/View.php, line 466
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-04-19 11:40:22 Notice: Notice (8): Use of undefined constant h1 - assumed 'h1' in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Videos/view.ctp, line 5]
+Trace:
+include - APP/View/Videos/view.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 935
+View::_render() - CORE/Cake/View/View.php, line 897
+View::render() - CORE/Cake/View/View.php, line 466
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-04-19 11:42:23 Notice: Notice (8): Use of undefined constant h1 - assumed 'h1' in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Videos/view.ctp, line 5]
+Trace:
+include - APP/View/Videos/view.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 935
+View::_render() - CORE/Cake/View/View.php, line 897
+View::render() - CORE/Cake/View/View.php, line 466
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-04-19 19:58:14 Notice: Notice (8): Undefined property: CakeErrorController::$uses in [/home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Controller/Controller.php, line 363]
+Trace:
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 363
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 363
+Controller::getEventManager() - CORE/Cake/Controller/Controller.php, line 655
+Controller::render() - CORE/Cake/Controller/Controller.php, line 927
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 120
+call_user_func - [internal], line ??
+ErrorHandler::handleFatalError() - CORE/Cake/Error/ErrorHandler.php, line 254
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 203
+call_user_func - [internal], line ??
+App::_checkFatalError() - CORE/Cake/Core/App.php, line 929
+App::shutdown() - CORE/Cake/Core/App.php, line 902
+[main] - [internal], line ??
+

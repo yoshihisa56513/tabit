@@ -1,0 +1,422 @@
+2014-04-14 18:08:52 Error: [NotFoundException] Not Found
+Request URL: /tabi/
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/View/View.php(935): include()
+#1 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/View/View.php(897): View->_evaluate('/home/users/0/c...', Array)
+#2 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/View/View.php(466): View->_render('/home/users/0/c...')
+#3 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Controller/Controller.php(954): View->render('home', NULL)
+#4 /home/users/0/chu.jp-tabit/web/tabi/app/Controller/PagesController.php(69): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/users/0/chu.jp-tabit/web/tabi/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-04-14 18:12:58 Error: [MissingControllerException] Controller class VideosController could not be found.
+Exception Attributes: array (
+  'class' => 'VideosController',
+  'plugin' => NULL,
+)
+Request URL: /tabi/Videos/index/
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-14 18:16:50 Error: [NotFoundException] Not Found
+Request URL: /tabi/
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/View/View.php(935): include()
+#1 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/View/View.php(897): View->_evaluate('/home/users/0/c...', Array)
+#2 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/View/View.php(466): View->_render('/home/users/0/c...')
+#3 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Controller/Controller.php(954): View->render('home', NULL)
+#4 /home/users/0/chu.jp-tabit/web/tabi/app/Controller/PagesController.php(69): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/users/0/chu.jp-tabit/web/tabi/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-04-18 15:47:50 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Videos/index.ctp, line 44]
+2014-04-18 15:47:50 Error: [InternalErrorException] Internal Server Error
+Request URL: /tabi/Videos
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/users/0/c...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/users/0/c...', 44, Array)
+#2 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/users/0/c...', 44, Array)
+#3 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-18 15:48:03 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Videos/index.ctp, line 44]
+2014-04-18 15:48:03 Error: [InternalErrorException] Internal Server Error
+Request URL: /tabi/Videos/
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/users/0/c...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/users/0/c...', 44, Array)
+#2 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/users/0/c...', 44, Array)
+#3 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-18 15:48:10 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Videos/index.ctp, line 44]
+2014-04-18 15:48:10 Error: [InternalErrorException] Internal Server Error
+Request URL: /tabi/Videos
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/users/0/c...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/users/0/c...', 44, Array)
+#2 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/users/0/c...', 44, Array)
+#3 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-18 15:53:40 Error: Fatal Error (4): syntax error, unexpected '<' in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Videos/index.ctp, line 42]
+2014-04-18 15:53:40 Error: [InternalErrorException] Internal Server Error
+Request URL: /tabi/Videos
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/users/0/c...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/users/0/c...', 42, Array)
+#2 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/users/0/c...', 42, Array)
+#3 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-18 15:53:44 Error: Fatal Error (4): syntax error, unexpected '<' in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Videos/index.ctp, line 42]
+2014-04-18 15:53:44 Error: [InternalErrorException] Internal Server Error
+Request URL: /tabi/Videos
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/users/0/c...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/users/0/c...', 42, Array)
+#2 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/users/0/c...', 42, Array)
+#3 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-18 15:53:47 Error: Fatal Error (4): syntax error, unexpected '<' in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Videos/index.ctp, line 42]
+2014-04-18 15:53:47 Error: [InternalErrorException] Internal Server Error
+Request URL: /tabi/Videos
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/users/0/c...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/users/0/c...', 42, Array)
+#2 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/users/0/c...', 42, Array)
+#3 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-18 15:53:54 Error: Fatal Error (4): syntax error, unexpected '<' in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Videos/index.ctp, line 42]
+2014-04-18 15:53:54 Error: [InternalErrorException] Internal Server Error
+Request URL: /tabi/Videos
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/users/0/c...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/users/0/c...', 42, Array)
+#2 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/users/0/c...', 42, Array)
+#3 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-18 15:57:43 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Videos/index.ctp, line 45]
+2014-04-18 15:57:43 Error: [InternalErrorException] Internal Server Error
+Request URL: /tabi/Videos
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/users/0/c...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/users/0/c...', 45, Array)
+#2 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/users/0/c...', 45, Array)
+#3 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-18 15:57:47 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Videos/index.ctp, line 45]
+2014-04-18 15:57:47 Error: [InternalErrorException] Internal Server Error
+Request URL: /tabi/Videos
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/users/0/c...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/users/0/c...', 45, Array)
+#2 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/users/0/c...', 45, Array)
+#3 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-18 15:57:53 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Videos/index.ctp, line 45]
+2014-04-18 15:57:53 Error: [InternalErrorException] Internal Server Error
+Request URL: /tabi/Videos
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/users/0/c...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/users/0/c...', 45, Array)
+#2 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/users/0/c...', 45, Array)
+#3 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-18 16:00:21 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Videos/index.ctp, line 44]
+2014-04-18 16:00:21 Error: [InternalErrorException] Internal Server Error
+Request URL: /tabi/Videos
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/users/0/c...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/users/0/c...', 44, Array)
+#2 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/users/0/c...', 44, Array)
+#3 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-18 16:00:26 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Videos/index.ctp, line 44]
+2014-04-18 16:00:26 Error: [InternalErrorException] Internal Server Error
+Request URL: /tabi/Videos
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/users/0/c...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/users/0/c...', 44, Array)
+#2 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/users/0/c...', 44, Array)
+#3 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-18 16:15:42 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Videos/index.ctp, line 44]
+2014-04-18 16:15:42 Error: [InternalErrorException] Internal Server Error
+Request URL: /tabi/Videos
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/users/0/c...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/users/0/c...', 44, Array)
+#2 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/users/0/c...', 44, Array)
+#3 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-18 16:16:45 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Videos/index.ctp, line 44]
+2014-04-18 16:16:45 Error: [InternalErrorException] Internal Server Error
+Request URL: /tabi/Videos
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/users/0/c...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/users/0/c...', 44, Array)
+#2 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/users/0/c...', 44, Array)
+#3 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-18 16:16:48 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Videos/index.ctp, line 44]
+2014-04-18 16:16:48 Error: [InternalErrorException] Internal Server Error
+Request URL: /tabi/Videos
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/users/0/c...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/users/0/c...', 44, Array)
+#2 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/users/0/c...', 44, Array)
+#3 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-18 16:17:40 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Videos/index.ctp, line 44]
+2014-04-18 16:17:40 Error: [InternalErrorException] Internal Server Error
+Request URL: /tabi/Videos
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/users/0/c...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/users/0/c...', 44, Array)
+#2 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/users/0/c...', 44, Array)
+#3 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-18 16:29:34 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Videos/index.ctp, line 44]
+2014-04-18 16:29:34 Error: [InternalErrorException] Internal Server Error
+Request URL: /tabi/Videos/
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/users/0/c...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/users/0/c...', 44, Array)
+#2 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/users/0/c...', 44, Array)
+#3 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-18 16:42:43 Error: Fatal Error (4): syntax error, unexpected T_ECHO, expecting ',' or ';' in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Videos/index.ctp, line 39]
+2014-04-18 16:42:43 Error: [InternalErrorException] Internal Server Error
+Request URL: /tabi/Videos/
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/users/0/c...', 39)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/users/0/c...', 39, Array)
+#2 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/users/0/c...', 39, Array)
+#3 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-18 16:42:46 Error: Fatal Error (4): syntax error, unexpected T_ECHO, expecting ',' or ';' in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Videos/index.ctp, line 39]
+2014-04-18 16:42:46 Error: [InternalErrorException] Internal Server Error
+Request URL: /tabi/Videos/
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/users/0/c...', 39)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/users/0/c...', 39, Array)
+#2 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/users/0/c...', 39, Array)
+#3 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-18 16:42:58 Error: [NotFoundException] Not Found
+Request URL: /tabi/
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/View/View.php(935): include()
+#1 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/View/View.php(897): View->_evaluate('/home/users/0/c...', Array)
+#2 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/View/View.php(466): View->_render('/home/users/0/c...')
+#3 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Controller/Controller.php(954): View->render('home', NULL)
+#4 /home/users/0/chu.jp-tabit/web/tabi/app/Controller/PagesController.php(69): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/users/0/chu.jp-tabit/web/tabi/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-04-18 16:43:07 Error: Fatal Error (4): syntax error, unexpected T_ECHO, expecting ',' or ';' in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Videos/index.ctp, line 39]
+2014-04-18 16:43:07 Error: [InternalErrorException] Internal Server Error
+Request URL: /tabi/Videos
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/users/0/c...', 39)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/users/0/c...', 39, Array)
+#2 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/users/0/c...', 39, Array)
+#3 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:46:41 Error: Fatal Error (1): Call to undefined function tmb() in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Videos/index.ctp, line 31]
+2014-04-19 18:46:41 Error: [InternalErrorException] Internal Server Error
+Request URL: /tabi/Videos
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/users/0/c...', 31)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/users/0/c...', 31, Array)
+#2 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/users/0/c...', 31, Array)
+#3 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 19:52:29 Error: Fatal Error (1): Call to undefined function calc() in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Videos/index.ctp, line 31]
+2014-04-19 19:52:29 Error: [InternalErrorException] Internal Server Error
+Request URL: /tabi/Videos
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/users/0/c...', 31)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/users/0/c...', 31, Array)
+#2 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/users/0/c...', 31, Array)
+#3 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 19:52:34 Error: Fatal Error (1): Call to undefined function calc() in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Videos/index.ctp, line 31]
+2014-04-19 19:52:34 Error: [InternalErrorException] Internal Server Error
+Request URL: /tabi/Videos
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/users/0/c...', 31)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/users/0/c...', 31, Array)
+#2 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/users/0/c...', 31, Array)
+#3 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 19:58:14 Error: Fatal Error (4): syntax error, unexpected '[', expecting ')' in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Helper/CommonHelper.php, line 5]
+2014-04-19 19:58:14 Error: [InternalErrorException] Internal Server Error
+Request URL: /tabi/Videos
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/users/0/c...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/users/0/c...', 5, Array)
+#2 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/users/0/c...', 5, Array)
+#3 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 20:01:52 Error: Fatal Error (4): syntax error, unexpected '[', expecting ')' in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Helper/CommonHelper.php, line 5]
+2014-04-19 20:01:52 Error: [InternalErrorException] Internal Server Error
+Request URL: /tabi/Videos
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/users/0/c...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/users/0/c...', 5, Array)
+#2 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/users/0/c...', 5, Array)
+#3 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 20:03:27 Error: Fatal Error (4): syntax error, unexpected '[', expecting ')' in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Helper/CommonHelper.php, line 5]
+2014-04-19 20:03:27 Error: [InternalErrorException] Internal Server Error
+Request URL: /tabi/Videos
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/users/0/c...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/users/0/c...', 5, Array)
+#2 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/users/0/c...', 5, Array)
+#3 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 20:03:29 Error: Fatal Error (4): syntax error, unexpected '[', expecting ')' in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Helper/CommonHelper.php, line 5]
+2014-04-19 20:03:29 Error: [InternalErrorException] Internal Server Error
+Request URL: /tabi/Videos
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/users/0/c...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/users/0/c...', 5, Array)
+#2 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/users/0/c...', 5, Array)
+#3 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 20:04:36 Error: Fatal Error (4): syntax error, unexpected '[', expecting ')' in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Helper/CommonHelper.php, line 5]
+2014-04-19 20:04:36 Error: [InternalErrorException] Internal Server Error
+Request URL: /tabi/Videos
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/users/0/c...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/users/0/c...', 5, Array)
+#2 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/users/0/c...', 5, Array)
+#3 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 21:03:42 Error: Fatal Error (4): syntax error, unexpected '[', expecting ')' in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Helper/CommonHelper.php, line 5]
+2014-04-19 21:03:42 Error: [FatalErrorException] syntax error, unexpected '[', expecting ')'
+Request URL: /tabi/Videos
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/users/0/c...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/users/0/c...', 5, Array)
+#2 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/users/0/c...', 5, Array)
+#3 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-22 19:19:17 Error: Fatal Error (4): syntax error, unexpected '<' in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Helper/CommonHelper.php, line 10]
+2014-04-22 19:19:17 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /tabi/Videos
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/users/0/c...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/users/0/c...', 10, Array)
+#2 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/users/0/c...', 10, Array)
+#3 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-22 19:30:24 Error: Fatal Error (4): syntax error, unexpected '<' in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Helper/CommonHelper.php, line 10]
+2014-04-22 19:30:24 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /tabi/Videos
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/users/0/c...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/users/0/c...', 10, Array)
+#2 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/users/0/c...', 10, Array)
+#3 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-22 19:31:42 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Helper/CommonHelper.php, line 14]
+2014-04-22 19:31:42 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /tabi/Videos
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/users/0/c...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/users/0/c...', 14, Array)
+#2 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/users/0/c...', 14, Array)
+#3 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-22 19:42:46 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Helper/CommonHelper.php, line 12]
+2014-04-22 19:42:46 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /tabi/Videos
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/users/0/c...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/users/0/c...', 12, Array)
+#2 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/users/0/c...', 12, Array)
+#3 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-22 20:35:06 Error: Fatal Error (4): syntax error, unexpected T_ENDFOREACH in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Videos/index.ctp, line 42]
+2014-04-22 20:35:06 Error: [FatalErrorException] syntax error, unexpected T_ENDFOREACH
+Request URL: /tabi/Videos
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/users/0/c...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/users/0/c...', 42, Array)
+#2 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/users/0/c...', 42, Array)
+#3 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-22 20:52:18 Error: [MissingActionException] Action VideosController::index2() could not be found.
+Exception Attributes: array (
+  'controller' => 'VideosController',
+  'action' => 'index2',
+)
+Request URL: /tabi/Videos/index2
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(VideosController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/users/0/chu.jp-tabit/web/tabi/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-24 00:12:45 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Videos/index.ctp, line 34]
+2014-04-24 00:12:45 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /tabi/Videos
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/users/0/c...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/users/0/c...', 34, Array)
+#2 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/users/0/c...', 34, Array)
+#3 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-24 00:13:06 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/users/0/chu.jp-tabit/web/tabi/app/View/Videos/index.ctp, line 34]
+2014-04-24 00:13:06 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /tabi/Videos
+Stack Trace:
+#0 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/users/0/c...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/users/0/c...', 34, Array)
+#2 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/users/0/c...', 34, Array)
+#3 /home/users/0/chu.jp-tabit/web/tabi/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
